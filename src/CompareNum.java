@@ -11,7 +11,7 @@ public class CompareNum {
 				int Sum = ArrNum[i] + ArrNum[j];
 				if(Sum == 10){
 					Result = true;
-					System.out.println("The Sum of "+ArrNum[i]+" "+ArrNum[j]+" "+Result);
+					System.out.println("The Sum of "+ArrNum[i]+" "+ArrNum[j]+" is 10: "+Result);
 				}
 			}
 		}
